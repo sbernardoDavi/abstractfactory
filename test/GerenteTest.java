@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class GerenteTest {
 
+    //Teste1
+
     @Test
     public void deveCriarCrachaVendedor(){
         AbstractFabric fabric = new FabricaVendedor();
@@ -11,6 +13,8 @@ public class GerenteTest {
         assertEquals("Crachá vendedor", gerente.emitirCracha());
 
     }
+
+    //Teste 2
 
     @Test
     public void deveEmitirNotaFiscalVendedor(){
